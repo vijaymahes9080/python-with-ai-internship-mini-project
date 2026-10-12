@@ -228,7 +228,7 @@ All student names, identifiers, department assignments, marks, and attendance va
 ---
 
 ## GitHub Publication Guide
-To publish this repository under the suggested repository name `student-performance-intelligence`:
+To publish this repository under the repository name `python-with-ai-internship-mini-project`:
 
 1. Check local Git status:
    ```powershell
@@ -239,11 +239,10 @@ To publish this repository under the suggested repository name `student-performa
    git add .
    git commit -m "feat: complete student performance intelligence and academic analytics project"
    ```
-3. Create a new repository named `student-performance-intelligence` on your GitHub account.
-4. Link remote and push:
+3. Link remote and push:
    ```powershell
    git branch -M main
-   git remote add origin https://github.com/<YOUR_GITHUB_USERNAME>/student-performance-intelligence.git
+   git remote add origin https://github.com/vijaymahes9080/python-with-ai-internship-mini-project.git
    git push -u origin main
    ```
 

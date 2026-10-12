@@ -206,18 +206,18 @@ The application successfully delivers an end-to-end analytical solution satisfyi
 ---
 
 ### 10. GitHub Repository & Submission Checklist
-- **Repository Name**: `student-performance-intelligence`
-- **GitHub URL**: `https://github.com/[Your-Username]/student-performance-intelligence` *(Replace with your GitHub repository link)*
+- **Repository Name**: `python-with-ai-internship-mini-project`
+- **GitHub URL**: `https://github.com/vijaymahes9080/python-with-ai-internship-mini-project`
 
 #### Submission Steps for Student:
 1. Initialize or confirm local Git repository:
    ```powershell
    git status
    ```
-2. Create a new public repository named `student-performance-intelligence` on GitHub.
+2. Create or verify the repository named `python-with-ai-internship-mini-project` on GitHub.
 3. Add the remote and push code:
    ```powershell
-   git remote add origin https://github.com/[Your-Username]/student-performance-intelligence.git
+   git remote add origin https://github.com/vijaymahes9080/python-with-ai-internship-mini-project.git
    git branch -M main
    git push -u origin main
    ```
