@@ -1,10 +1,16 @@
+# ==============================================================================
+# Student Performance Intelligence & Academic Analytics - .gitignore
+# ==============================================================================
+
 # Byte-compiled / optimized / DLL files
 __pycache__/
 *.py[cod]
 *$py.class
+*.so
 
 # C extensions
-*.so
+*.dylib
+*.dll
 
 # Distribution / packaging
 .Python
@@ -20,21 +26,28 @@ parts/
 sdist/
 var/
 wheels/
+share/python-wheels/
 *.egg-info/
 .installed.cfg
 *.egg
+MANIFEST
 
 # Virtual Environments
 .venv/
 venv/
 ENV/
 env/
+env.bak/
+venv.bak/
 
-# IDE and Editor Files
+# IDE and Editor Directories
 .vscode/
 .idea/
 *.sublime-project
 *.sublime-workspace
+*.swp
+*.swo
+*~
 
 # Operating System Files
 Thumbs.db
@@ -42,9 +55,27 @@ ehthumbs.db
 Desktop.ini
 $RECYCLE.BIN/
 .DS_Store
+._*
+.Spotlight-V100
+.Trashes
 
 # Testing and Coverage
 .pytest_cache/
 .coverage
+.coverage.*
 htmlcov/
+.tox/
+.nox/
+.hypothesis/
+
+# Logs, Databases, and Local Temporary Files
+*.log
 *.tmp
+*.bak
+*.cache
+local_settings.py
+
+# Keep Essential Project Assets Tracked
+!data/students.csv
+!screenshots/*.png
+!image.png

@@ -128,7 +128,18 @@ $$\text{Load} \longrightarrow \text{Validate} \longrightarrow \text{Inspect} \lo
 ---
 
 ### 7. Output / Screenshots
-The application produces a structured, 9-section terminal report upon running `python main.py`.
+The application produces a structured, 9-section terminal report upon running `python main.py`, along with analytical distribution charts and workflow architecture diagrams.
+
+#### Visual Analytics & Execution Previews:
+
+![Terminal Dashboard Preview](screenshots/terminal_dashboard_preview.png)
+*Figure 7.1: Live execution of the terminal intelligence dashboard showing Subject Analysis, Class Metrics, Rankings, and Attendance Intelligence.*
+
+![Academic Performance Analytics](screenshots/analytics_charts.png)
+*Figure 7.2: 4-Panel academic performance analytics dashboard displaying subject benchmarks, departmental comparisons, grade distributions, and attendance correlations.*
+
+![System Architecture & Data Pipeline](screenshots/pipeline_architecture.png)
+*Figure 7.3: 7-stage automated data transformation and validation pipeline architecture.*
 
 #### Genuine Terminal Output Excerpts:
 ```text
@@ -169,13 +180,6 @@ Top Performers (including tied cutoffs at 5th position):
 5     STU105  Kabir Mehta            Data Science 84.00    A    Passed
 6     STU130   Ananya Roy  Information Technology 84.00    A    Passed
 ```
-
-#### How the Student Can Add Screenshots:
-1. Run `python main.py` in PowerShell or Windows Terminal.
-2. Capture screenshots of sections 1–3, 4–6, and 7–9.
-3. Save the images to the `screenshots/` directory (e.g., `screenshots/terminal_dashboard.png`).
-4. Run `python -m unittest discover -s tests -v` and save a screenshot of the 20 passing unit tests as `screenshots/unit_tests.png`.
-5. Embed the images into this document using standard markdown: `![Dashboard Overview](screenshots/terminal_dashboard.png)`.
 
 ---
 
